@@ -30,4 +30,3 @@ build: .installed-requirements
 test-%:
 	@cat ${CURDIR}/${BUILD_DIR}/$*.tar | docker import - minideb:$*
 	@./test minideb:$*
-#
