@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#检查是否在debian系统上运行，安装相应包,否则退出
 set -e
 set -u
 set -o pipefail
